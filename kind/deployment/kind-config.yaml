@@ -1,0 +1,6 @@
+kind: Cluster
+apiVersion: kind.x-k8s.io.vialpha4
+nodes:
+  - role: control-plane
+  - role: worker
+  - role: worker
